@@ -1,30 +1,32 @@
 # Car Parking Invoicing Application 
 
-A Car parking invoicing application that allows different pricing for various vehicle categories and supports seasonal discounts. This application include simple user authentication with the ability to create new users. The backend should be built with Spring Boot.
+A Car parking invoicing application that allows different pricing for various vehicle categories and supports seasonal discounts. This application includes simple user authentication with the ability to create new users. The backend is built with Spring Boot.
 
 1. User Authentication:
-* simple user authentication with the ability to create new users.
+* Simple user authentication with the ability to create new users.
 * Passwords securely stored using hashing 
 * users can access the car parking invoicing features.
 2. Vehicle Categories:
-* The application supports multiple vehicle categories (e.g., Car, Motorcycle, Truck) with different per hour pricing.
-* Prices should be configurable.
+* Supports multiple vehicle categories (e.g., Car, Motorcycle, Truck) with different per hour pricing.
+* Prices are configurable.
 3. Seasonal Discounts:
-* The application allows the setup of seasonal discounts that can be applied to the parking fees.
+* Allows the setup of seasonal discounts that can be applied to the parking fees.
 * Discounts are configurable based on the time of the year or special events.
 4. Parking Invoicing:
-* The system able to calculate and generate invoices for parked vehicles.
-* The invoice should include vehicle category, parking duration, base price, applied discounts, and total amount due.
-* Invoices stored and retrievable via the backend.
-* Ability to managing vehicle categories, pricing, and seasonal discounts.
+* Calculate and generate invoices for parked vehicles.
+* Invoice include vehicle category, parking duration, base price, applied discounts, and total amount due.
+* Invoices are stored and retrievable via the backend.
+5. Admin:
+* Admin functionalities for managing vehicle categories, pricing, and seasonal discounts.
 * Ability to add, edit, and delete vehicle categories and discount rules.
 6. Backend:
-* The backend implemented using Spring Boot.
+* Implemented using Spring Boot.
 * RESTful APIs provided for all functionalities, including user authentication, invoicing, and admin operations.
 * Data persisted using an MySQL database.
 
 
 # Swagger for API Documentation:
+Access Swagger at:
 
 	http://localhost:8080/swagger-ui/index.html
 
