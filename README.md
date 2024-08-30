@@ -41,7 +41,6 @@ Step 2: Pull the MySQL Image
 Pull the MySQL Docker image from Docker Hub:
 
 	docker pull mysql:8
-	This command pulls the mysql:8 image from Docker Hub.
 
 Step 3: Create a Docker Network
 	Create a custom Docker network to allow both containers to communicate with each other.
