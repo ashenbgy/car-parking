@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/discounts")
+@RequestMapping("/admin/discounts")
 @CrossOrigin(origins = "*")
 public class SeasonalDiscountController {
     @Autowired

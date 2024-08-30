@@ -28,6 +28,7 @@ public class SecurityConfig {
         http.httpBasic(Customizer.withDefaults());
         http.authorizeHttpRequests(authorize -> authorize
                         .requestMatchers("/users/register").permitAll()
+                        .requestMatchers("/admin/**").hasRole("ADMIN")
                         .requestMatchers("/swagger-ui/**", "/v3/api-docs/**").permitAll()
                         .anyRequest().authenticated())
                         .userDetailsService(userDetailsService)
