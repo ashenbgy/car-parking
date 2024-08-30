@@ -65,3 +65,7 @@ Step 6: Test the Connection
 	You can now send API requests
 
 	ex:- http://localhost:8080/users
+
+# Database Setup
+
+Before running the application locally, ensure that the car_parking database is created in MySQL.
