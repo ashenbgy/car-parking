@@ -49,7 +49,7 @@ Step 3: Create a Docker Network
 Step 4: Run the MySQL Container
 	Run the MySQL container and connect it to the custom network.
 
-docker run -d --name mysql-container --network car-parking-network -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=car_parking -p 3306:3306 mysql:8
+	docker run -d --name mysql-container --network car-parking-network -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=car_parking -p 3306:3306 mysql:8
   
 Step 5: Run the Spring Boot Container
 	Run your Spring Boot container and connect it to the same network.
