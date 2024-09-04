@@ -2,14 +2,7 @@ package com.test.carparkinginvoicing.controller;
 
 import com.test.carparkinginvoicing.dto.ParkingInvoiceDto;
 import com.test.carparkinginvoicing.entity.ParkingInvoice;
-import com.test.carparkinginvoicing.entity.SeasonalDiscount;
-import com.test.carparkinginvoicing.entity.User;
-import com.test.carparkinginvoicing.entity.VehicleCategory;
 import com.test.carparkinginvoicing.service.ParkingInvoiceService;
-import com.test.carparkinginvoicing.service.SeasonalDiscountService;
-import com.test.carparkinginvoicing.service.UserService;
-import com.test.carparkinginvoicing.service.VehicleCategoryService;
-import jakarta.persistence.EntityNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
